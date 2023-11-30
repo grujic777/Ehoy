@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Autor</title>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="img/lg9.png" sizes="16x16">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+   <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <meta name="keywords" content=" Me education contact Ict love ">
+  <meta name="description" content="About the autor">
+  
+
+</head>
+<body>
+ 
+     <div class="container-fluid" id=main>
+          
+        <div class="row">
+            <div class="col s12"> <h4> Welcome to the page about me </h4></div>
+            <div class="col s6">
+               <a class='dropdown-trigger btn animated rubberBand pulse' href='#' data-target='dropdown1'> Go back </a>
+                <ul id='dropdown1' class='dropdown-content'>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="Grain.html">Grain</a></li>
+                <li><a href="Exp.html">Exp</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                </ul>
+           </div>
+            <div class="col s6">
+               <a class='dropdown-trigger btn animated rubberBand pulse' href='#' data-target='dropdown2'>About me</a>
+                 <ul id='dropdown2' class='dropdown-content'>
+                  <li><a href="#aboutme">Biography</a></li>
+                    <li><a href="#social">Social</a></li>
+                    <li><a href="#projects">Portfolio</a></li>
+                  
+                 </ul>
+
+
+            </div>
+          </div>
+
+
+     </div>
+
+     <div class="container-fluid donjalinija black" id="aboutme">
+              <div class="row">
+                <div class="col s12 content-me "> 
+                   
+                                                  <h5> Whats new? </h5>
+                          <p> Hi ! My name is Katarina, junior web deweloper by ICT University </br> 
+                      This is the third project i have worked on. </br>
+                            Inovation is that this site was made using the Bootstrap and Materialize frameworks.  </br>
+                           If you wont to find more about me go to the bottom of the page and check my portfolio            </p>
+                </div>
+              </div> 
+
+              <div class="row" id="social">
+                 <div class="col xl6 l6 m6 s12 content-me" > 
+                    <img src="img/ja16.jpg"/>
+                   </div>
+                <div class="col xl6 l6 m6 s12 content-me" > 
+                    <h5> Contact me </h5>
+               <a href="https://www.facebook.com/mestasunumerisana" ><i class="fab fa-facebook-square">  </i> </a>  </br> 
+               <a href="https://www.instagram.com/fen_ms/?hl=sr" ><i class="fab fa-instagram"></i> </a> </br>
+               <a href="https://www.snapchat.com/" ><i class="fab fa-snapchat-square"></i> </a> </br>
+               
+            <a class="waves-effect waves-light btn modal-trigger fon" href="#modal1"> Phone </a>
+
+               
+             <div id="modal1" class="modal">
+             <div class="modal-content message donjalinija black">
+             <h5>ERROR</h5>
+             <p>Sorry but phone number is private information </p>
+             </div>
+             <div class="modal-footer message">
+             <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+           </div>
+           </div>
+              </div> 
+            </div> 
+         </div>
+
+              <div class="container-fluid" >
+              <div class="row black" id="projects">
+                <div class="col s12 content-me " > 
+                   
+                      <h5> Portfolio </h5>
+                      <div class="container-fluid black" id="portfolio">
+                           <div class="container">
+                             <a href="https://portfolioofkatarina.000webhostapp.com/?name=&email=&message=">   <img src="img/portfolio.jpg"/> </a>
+                           </div>
+                      </div>
+                   </div>
+                </div>
+            </div>
+
+
+
+    <script type="text/javascript" src="js/materialize.min.js">      </script>
+
+      <script>
+  M.AutoInit();
+
+var instance = M.Dropdown.getInstance(elem);
+var instance = M.Modal.getInstance(elem);
+      </script>
+
+      
+</body>
